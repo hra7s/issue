@@ -1,0 +1,38 @@
+/* Ticket.css */
+
+.ticket-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ticket-row td {
+    padding: 12px;
+  }
+  
+  .status-open {
+    color: red; /* Red color for 'Open' status */
+  }
+  
+  .status-in-progress {
+    color: orange; /* Orange color for 'In Progress' status */
+  }
+  
+  .status-resolved {
+    color: green; /* Green color for 'Resolved' status */
+  }
+  
+  .ticket-action-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ticket-action-button.resolve {
+    background-color: #28a745; /* Green color for resolved action */
+  }
+  
+  .ticket-action-button:hover {
+    background-color: #0056b3;
+  }
